@@ -1,0 +1,123 @@
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    /*max-width: 900px;*/
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+.header-intro-container{
+    color: #F9FAF8;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    /*max-width: 900px;*/
+    padding: 100px 0;
+    gap: 50px;
+}
+
+.header-sign-up-card{
+    width: 450px;
+}
+
+.sign-up-title-text{
+    
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button{
+    cursor: pointer;
+    padding: 6px 30px;
+    border-radius: 8px;
+}
+button.sign-up-button{
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    border: 1px solid royalblue;
+}
+.header-sign-up-image{
+    width: 500px;
+    height: 220px;
+    background: #636364;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    padding: 0;
+}
+
+/*Section 2 styling*/
+.info-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px 0;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+.text{
+    text-align: center;
+    color: #636364;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.info{
+    max-width: 150px;
+}
+
+
+
+.footer{
+    color: #e5e7eb;
+    background-color: #1F2937;
+}
