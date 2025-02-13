@@ -171,7 +171,6 @@ img{
 .newsletter-text{
     display: flex;
     align-items: baseline;
-    flex-wrap: wrap;
     gap: 220px;
 }
 
